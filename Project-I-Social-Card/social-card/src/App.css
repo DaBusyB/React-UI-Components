@@ -2,3 +2,14 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+.cardContainer {
+  border: 2px solid #8EA1FF;
+  width: 585px;
+  height: 507px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
