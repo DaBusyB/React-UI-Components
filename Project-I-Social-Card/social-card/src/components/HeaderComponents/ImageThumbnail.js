@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import './Header.css';
 
-ImageThumbnail = () => {
+const ImageThumbnail = () => {
     return(
-        <div>
-            
+        <div className='thumbnail'>
+
         </div>
     );
 }

@@ -1,5 +1,6 @@
 /* All styles for your header Components live here */
 
+/* component outlines */
 .headerContainer {
     border: 2px solid #DC978A;
     width: 578px;
@@ -9,4 +10,22 @@
     left: 0;
     right: 0;
     margin: auto;
+}
+
+.thumbnail {
+    border: 2px solid #ACC19C;
+    width: 52px;
+    height: 54px;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+}
+
+.headerContent {
+    border: 2px solid #BED5FE;
+    width: 513px;
+    height: 91px;
+    position: absolute;
+    top: 2px;
+    left: 58px;
 }

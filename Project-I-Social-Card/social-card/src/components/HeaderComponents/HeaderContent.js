@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import './Header.css';
 
-HeaderContent = () => {
+const HeaderContent = () => {
     return(
-        <div>
+        <div className='headerContent'>
             
         </div>
     );
