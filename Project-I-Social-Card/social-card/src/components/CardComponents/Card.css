@@ -1,1 +1,12 @@
 /* All styles for your Card Components live here */
+
+.cardContainer {
+    border: 2px solid #C49ED3;
+    width: 578px;
+    height: 360px;
+    position: absolute;
+    top: 101px;
+    left: 0;
+    right: 2px;
+    margin: auto;
+}

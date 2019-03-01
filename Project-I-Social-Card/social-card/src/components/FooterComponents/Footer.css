@@ -1,0 +1,9 @@
+.footer {
+    border: 2px solid #FAF68A;
+    width: 576px;
+    height: 32px;
+    position: absolute;
+    top: 466px;
+
+    margin: 0 auto;
+}
