@@ -21,6 +21,11 @@
     left: 1px;
 }
 
+.thumbnail img {
+    width: 50px;
+    height: 54px;
+}
+
 .headerContent {
     border: 2px solid #BED5FE;
     width: 513px;
