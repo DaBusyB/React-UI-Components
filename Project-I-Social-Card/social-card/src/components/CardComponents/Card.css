@@ -59,3 +59,31 @@ table {
     right: 2px;
     margin: auto;
 }
+
+.banner img {
+    width: 460px;
+    height: 252px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+.cardContent {
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    width: 465px;
+    left: 80px;
+}
+
+.cardContent h2 {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.cardContent p {
+    line-height: 1.2;
+    margin-bottom: 8px;
+}

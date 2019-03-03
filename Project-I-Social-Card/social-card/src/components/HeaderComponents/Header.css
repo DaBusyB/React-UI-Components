@@ -110,9 +110,9 @@ table {
 
 .headerTitle p {
     border: 1px solid purple;
-    font-size: 12px;
+    font-size: 13px;
     position: absolute;
-    top: 1px;
+    top: 3px;
     left: 110px;
 }
 
