@@ -48,8 +48,7 @@ table {
 	border-spacing: 0;
 }
 
-/*  */
-
+/* App */
 .calcContainer {
 	border-top: 2px solid #979797;
 	border-left: 2px solid #979797;
@@ -59,4 +58,9 @@ table {
     width: 450px;
     height: 595px;
     top: 50px;
+}
+
+.actionRow {
+	display: flex;
+	flex-direction: row;
 }

@@ -10,13 +10,17 @@ const App = props => {
   return (
     <div className='calcContainer'>
       <CalculatorDisplay />
-      <ActionButton text='clear'/>
+
+      <div className='actionRow'> 
+        <ActionButton text='clear' />
+        <ArithmeticButton buttonText='/' />
+      </div>
 
       <table>
         <tr>
           <td><NumberButton buttonText={7} /></td>
           <td><NumberButton buttonText={8} /></td>
-          <td><NumberButton buttonText={8} /></td>
+          <td><NumberButton buttonText={9} /></td>
           <td><ArithmeticButton buttonText='x' /></td>
         </tr>
 
@@ -35,7 +39,10 @@ const App = props => {
         </tr>
       </table>
 
-      <ActionButton text={0}/>
+      <div className='actionRow'> 
+        <ActionButton text={0} />
+        <ArithmeticButton buttonText='=' />
+      </div>
 
     </div>
   );
