@@ -50,17 +50,28 @@ table {
 
 /*  */
 
+/* ActionButton */
 .clearZeroBtn {
     background: #FFFFFF;
     color: #222222;
     border-bottom: 2px solid #979797;
     border-right: 2px solid #979797;
-    width: 330px;
-    height: 92px;
+    width: 331px;
+    height: 93px;
 }
 
 .clearZeroBtnTxt {
     padding-top: 20px;
     text-align: center;
+    font-size: 45px;
+}
+
+/* NumberButton */
+.numberButton {
+    border-bottom: 2px solid #979797;
+    border-right: 2px solid #979797;
+    height: 93px;
+    width: 111px;
+    font-weight: bold; 
     font-size: 45px;
 }
