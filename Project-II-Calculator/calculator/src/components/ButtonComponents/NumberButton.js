@@ -5,7 +5,7 @@ const NumberButton = props => {
     
     return (
         <div>
-            <button className='numberButton'> {props.buttonText} </button>
+            <button className='numButton'> {props.buttonText} </button>
         </div>
     );
     

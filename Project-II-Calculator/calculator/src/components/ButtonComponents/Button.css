@@ -67,11 +67,22 @@ table {
 }
 
 /* NumberButton */
-.numberButton {
+.numButton {
     border-bottom: 2px solid #979797;
     border-right: 2px solid #979797;
     height: 93px;
     width: 111px;
+    font-weight: bold; 
+    font-size: 45px;
+}
+
+.arithButton{
+    border-bottom: 2px solid #979797;
+    border-right: none;
+    background: #A0001E;
+    color: #FFFFFF;
+    height: 93px;
+    width: 116px;
     font-weight: bold; 
     font-size: 45px;
 }

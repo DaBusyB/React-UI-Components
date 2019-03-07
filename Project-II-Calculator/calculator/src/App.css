@@ -51,7 +51,9 @@ table {
 /*  */
 
 .calcContainer {
-    border: 2px solid #979797;
+	border-top: 2px solid #979797;
+	border-left: 2px solid #979797;
+	border-right: 2px solid #979797;
     position: relative;
     margin: 0 auto;
     width: 450px;
