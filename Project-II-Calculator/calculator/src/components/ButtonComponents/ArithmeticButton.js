@@ -5,7 +5,7 @@ const ArithmeticButton = props => {
     
     return (
         <div>
-            <button className='arithButton'> {props.buttonText} </button>
+            <button className='arithButton button'> {props.buttonText} </button>
         </div>
     );
     

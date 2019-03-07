@@ -4,9 +4,9 @@ import './Button.css';
 
 const ActionButton = props => {
     return(
-        <div className='clearZeroBtn'> 
-            <p className='clearZeroBtnTxt'> {props.text} </p>
-        </div>
+        
+        <button className='clearZeroBtn button'> {props.text} </button>
+        
     );
 }
 
