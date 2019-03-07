@@ -18,23 +18,23 @@ const App = props => {
 
       <table>
         <tr>
-          <td><NumberButton buttonText={7} /></td>
-          <td><NumberButton buttonText={8} /></td>
-          <td><NumberButton buttonText={9} /></td>
+          <td><NumberButton buttonText={7} buttonStyle='numButton'/></td>
+          <td><NumberButton buttonText={8} buttonStyle='numButton'/></td>
+          <td><NumberButton buttonText={9} buttonStyle='numButton'/></td>
           <td><ArithmeticButton buttonText='x' /></td>
         </tr>
 
         <tr>
-          <td><NumberButton buttonText={4} /></td>
-          <td><NumberButton buttonText={5} /></td>
-          <td><NumberButton buttonText={6} /></td>
+          <td><NumberButton buttonText={4} buttonStyle='numButton'/></td>
+          <td><NumberButton buttonText={5} buttonStyle='numButton'/></td>
+          <td><NumberButton buttonText={6} buttonStyle='numButton'/></td>
           <td><ArithmeticButton buttonText='-' /></td>
         </tr>
 
         <tr>
-          <td><NumberButton buttonText={1} /></td>
-          <td><NumberButton buttonText={2} /></td>
-          <td><NumberButton buttonText={3} /></td>
+          <td><NumberButton buttonText={1} buttonStyle='numButton'/></td>
+          <td><NumberButton buttonText={2} buttonStyle='numButton'/></td>
+          <td><NumberButton buttonText={3} buttonStyle='numButton'/></td>
           <td><ArithmeticButton buttonText='+' /></td>
         </tr>
       </table>
